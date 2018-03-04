@@ -21,6 +21,6 @@ Plug 'stsewd/light-show.vim'
 
 ## Usage
 
-- Enter to _presentation mode_ with `:Goyo`
+- Enter to _presentation mode_ with `:StartPresentation`
 - Press `n` to go to the next slide
 - Press `p` to go to the previous slide
