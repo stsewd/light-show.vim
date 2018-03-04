@@ -20,4 +20,4 @@ augroup VimShowAuGroup
   autocmd User GoyoLeave nested call <SID>goyo_leave()
 augroup END
 
-command StartPresentation execute 'Goyo x'.s:light_show_lines
+command! StartPresentation execute 'Goyo x'.s:light_show_lines
