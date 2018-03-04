@@ -22,7 +22,7 @@ function! s:startPresentation()
 endfunction
 
 
-function! s:goyo_enter()
+function! s:goyoEnter()
   " Disable disturbing settings
   setlocal nospell
   set scrolloff=0
@@ -41,7 +41,7 @@ function! s:goyo_enter()
   nnoremap <buffer><silent> <Backspace> :Goyo!<CR>
 endfunction
 
-function! s:goyo_leave()
+function! s:goyoLeave()
   nunmap <buffer> n
   nunmap <buffer> p
   nunmap <buffer> <Backspace>
@@ -51,8 +51,8 @@ endfunction
 " Autocommands for Goyo
 augroup VimShowAuGroup
   autocmd!
-  autocmd User GoyoEnter nested call <SID>goyo_enter()
-  autocmd User GoyoLeave nested call <SID>goyo_leave()
+  autocmd User GoyoEnter nested call <SID>goyoEnter()
+  autocmd User GoyoLeave nested call <SID>goyoLeave()
 augroup END
 
 command! StartPresentation :call <SID>startPresentation()
