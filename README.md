@@ -15,7 +15,6 @@ Put this on your `init.vim`.
 
 ```vim
 Plug 'junegunn/goyo.vim'
-Plug 'junegunn/limelight.vim'
 
 Plug 'stsewd/light-show.vim'
 ```
