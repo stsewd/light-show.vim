@@ -2,6 +2,8 @@
 
 Light presentations on Neovim/Vim using [Goyo](https://github.com/junegunn/goyo.vim).
 
+**Warning**: Still on development state.
+
 ## Requirements
 
 - [Goyo](https://github.com/junegunn/goyo.vim)
