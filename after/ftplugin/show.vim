@@ -1,4 +1,4 @@
-let s:light_show_lines = 15 + 2
+let s:light_show_lines = 15
 
 function! s:goyo_enter()
   setlocal nospell
