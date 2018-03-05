@@ -33,6 +33,6 @@ Plug 'stsewd/light-show.vim'
 - `:center`
 - `set virtuledit=all`
 
-# Export to html
+### Export to html
 
 - `:TOhtml`
