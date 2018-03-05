@@ -3,14 +3,14 @@ function! s:nextSlide(direction)
   let @/ = '-\{3,}'
   silent execute 'normal! '.a:direction
 
-  " Clear search
-  nohlsearch
-
   " Center screen
   normal! zt
 
   " Scroll one line
   execute "normal! \<C-E>"
+
+  " Refresh screen
+  redraw!
 endfunction
 
 function! s:startPresentation()
