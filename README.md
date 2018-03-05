@@ -11,7 +11,7 @@ Light presentations on Neovim/Vim using [Goyo](https://github.com/junegunn/goyo.
 ## Installation
 
 Install using [vim-plug](https://github.com/junegunn/vim-plug).
-Put this on your `init.vim`.
+Put this on your `init.vim` or `.vim.rc` file.
 
 ```vim
 Plug 'junegunn/goyo.vim'
@@ -21,6 +21,12 @@ Plug 'stsewd/light-show.vim'
 
 ## Usage
 
-- Enter to _presentation mode_ with `:StartPresentation`
+- Enter to _presentation mode_ with `:StartPresentation` or with `<Enter>`
 - Press `n` to go to the next slide
 - Press `p` to go to the previous slide
+- Exit presentation mode with `<Backspace>`
+
+## Tips
+
+- `:center`
+- `set virtuledit=all`
