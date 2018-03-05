@@ -33,7 +33,7 @@ function! s:goyoEnter()
   endif
 
   " Force conceallevel=2
-  let g:vim_markdown_conceal = 2  " Hide symbols
+  let g:vim_markdown_conceal = 2
   set conceallevel=2
   syntax enable
 
