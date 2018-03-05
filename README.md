@@ -11,7 +11,7 @@ Light presentations on Neovim/Vim using [Goyo](https://github.com/junegunn/goyo.
 ## Installation
 
 Install using [vim-plug](https://github.com/junegunn/vim-plug).
-Put this on your `init.vim` or `.vim.rc` file.
+Put this on your `init.vim` or `.vimrc` file.
 
 ```vim
 Plug 'junegunn/goyo.vim'
