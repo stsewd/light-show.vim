@@ -14,7 +14,7 @@ function! s:nextSlide(direction)
 endfunction
 
 function! s:startPresentation()
-  let l:light_show_lines = 15 - 1
+  let l:light_show_lines = get(g:, 'light_show_nlines', 15) - 1
   execute 'Goyo x'.l:light_show_lines
   " Put current slide on the center
   call <SID>nextSlide('n')
