@@ -28,7 +28,9 @@ function! s:goyoEnter()
   set scrolloff=0
   
   " Deactivate Limelight
-  Limelight!
+  if exists('g:loaded_limelight')
+    Limelight!
+  endif
 
   " Force conceallevel=2
   let g:vim_markdown_conceal = 2  " Hide symbols
