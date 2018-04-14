@@ -44,6 +44,7 @@ function! s:goyoEnter()
 endfunction
 
 function! s:goyoLeave()
+  " Unset mappings
   nunmap <buffer> n
   nunmap <buffer> p
   nunmap <buffer> <Backspace>
